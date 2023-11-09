@@ -42,9 +42,9 @@
                     </compilerArgs>
                     <annotationProcessorPaths>
                         <path>
-                            <groupId>${parent.groupId}</groupId>
+                            <groupId>${project.parent.groupId}</groupId>
                             <artifactId>mapstruct-wither-support</artifactId>
-                            <version>${parent.version}</version>
+                            <version>${project.parent.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>

@@ -4,8 +4,8 @@ Mapstruct plugin to support `withX` methods in POJOs.
 
 ## Usage
 
-The library needs to be added to the annotation processor 
-classpath. With Maven, this can be done by configuring the 
+The library needs to be added to the annotation processor
+classpath. With Maven, this can be done by configuring the
 compiler plugin as follows.
 
 ```xml
@@ -41,7 +41,8 @@ See for example Lomboks
 
 ### Mapstruct default behavior
 
-Mapstruct will issue warning by default when this pattern is used.
+Mapstruct will issue warning by default when this pattern is
+used.
 
 ```
 java: Unmapped target properties: "withName".
@@ -52,7 +53,7 @@ the property name from a `withX` method.
 
 ### Solution
 
-This library provides a small 
+This library provides a small
 [AccessorNamingStrategy](https://mapstruct.org/documentation/stable/reference/html/#using-spi)
 that adds the capability to parse the correct property name from
 `withX` methods.
